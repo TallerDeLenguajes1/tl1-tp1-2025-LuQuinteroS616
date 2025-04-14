@@ -1,0 +1,9 @@
+
+COMO IGNORAR UN ARCHIVO?
+para ignorar algo en partigular nada mas tenemos que escribir el nombre exacto en el
+.gitignore , (((por ej: config.txt))) lo incluiriamos asi tal cual con su extension tambien
+
+QUE HAGO SI YA SE INGRESO ANTERIORMENTE ESE ARCHIVO QUE QUIERO IGNORAR??
+Se tiene que rastrear desde la terminal, ya que si lo subimos anteriormente(quizas no lo recordamos), habra
+que sacarlo del control de versiones:
+((git rm --cached config.txt))
