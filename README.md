@@ -35,3 +35,12 @@ doc/*.txt
 doc/**/*.txt
 ```
 
+## Preguntas del Ejercicio 2.3 apartado g
+
+**¿Por qué los puntos 2 y 3 tienen el mismo resultado?**
+
+Porque el puntero fue asignado con la dirección de la variable, es decir, `puntero = &numero;`. Entonces, cuando se imprime el contenido del puntero (`puntero`) y la dirección de la variable (`&numero`), ambos muestran la misma dirección de memoria.
+
+**¿Qué se obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?**
+
+En el punto 4 se obtiene la dirección de memoria del puntero (`&puntero`). No es igual a los puntos anteriores porque el puntero también es una variable que ocupa su propio espacio en memoria, distinto al de la variable a la que apunta.
